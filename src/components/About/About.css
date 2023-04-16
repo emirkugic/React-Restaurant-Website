@@ -1,0 +1,73 @@
+:root {
+    --font-base: "Cormorant Upright",serif;
+    --font-alt: "Open Sans",sans-serif;
+    --color-golden: #dcca87;
+    --color-black: #0c0c0c;
+    --color-gray: #545454;
+    --color-crimson: #f5efdb;
+    --color-grey: #aaa;
+    --color-white: #fff;
+}
+
+.about p{
+    color: var(--color-grey);
+    margin: 2rem 0;
+
+    font-family: var(--font-alt);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+  
+}
+
+.left-about p{
+    
+}
+
+.about button{
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: .04em;
+
+    background-color: var(--color-crimson);
+    border: none;
+    border-radius: 1px;
+    color: var(--color-black);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.about{
+    background: url("../../assets/bg.png");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-about{
+    text-align: right;
+}
+
+.about h1{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 64px;
+    letter-spacing: .04em;
+    line-height: 83.2px;
+    text-transform: capitalize;
+}
+
+.mid-about img{
+    height: 910px;
+    margin: 0 50px;
+}

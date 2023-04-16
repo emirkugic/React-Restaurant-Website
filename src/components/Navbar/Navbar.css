@@ -1,0 +1,86 @@
+:root {
+    --font-base: "Cormorant Upright",serif;
+    --font-alt: "Open Sans",sans-serif;
+    --color-golden: #dcca87;
+    --color-black: #0c0c0c;
+    --color-gray: #545454;
+    --color-crimson: #f5efdb;
+    --color-grey: #aaa;
+    --color-white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 10px;
+}
+
+.left-nav img{
+    width: 180px;
+    padding-left: 15px;
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+}
+
+.lists li{
+    list-style: none;
+}
+
+.lists a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.mid-nav,.right-nav{
+    color: var(--color-white);
+    text-align: center;
+}
+
+.mid-nav{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+   
+}
+
+.lists li{
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+}
+
+
+.right-nav{
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+}
+
+.right-nav a,.right-nav div{
+    display: inline-block;
+}
+
+.right-nav a{
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+}
+
+.right-nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--color-golden);
+    cursor: pointer;
+}
